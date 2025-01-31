@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
+.adlam-display-regular {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  
+}
+.space-mono-regular {
+  font-family: "Space Mono", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.nanum-pen-script-regular {
+  font-family: "Nanum Pen Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinking {
+  animation: blink 1s infinite; 
+}
