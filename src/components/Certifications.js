@@ -22,12 +22,12 @@ const Certifications = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-start items-start gap-6 md:gap-10 w-full">
             <div className="w-full md:w-1/2 h-[136px] py-5 px-10 bg-[#282828] rounded-[20px] flex justify-start items-start">
-              <div className="text-white text-xl font-normal dm-sans leading-relaxed">
+              <div className="text-white text-lg font-normal dm-sans leading-relaxed">
                 I was very good at the interaction and web design courses
               </div>
             </div>
             <div className="w-full md:w-1/2 h-[136px] py-5 px-10 bg-[#282828] rounded-[20px] flex justify-start items-start">
-              <div className="text-white text-xl font-normal dm-sans leading-relaxed">
+              <div className="text-white text-lg font-normal dm-sans leading-relaxed">
                 I really liked the power of design and illustration to tell
                 stories
               </div>
